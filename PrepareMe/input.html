@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="magic.js"></script>
+<link rel="stylesheet" type="text/css" href="Styles/mainStyle.css">
+<link rel="stylesheet" type="text/css" href="Styles/insertTable.css">
+<script type="text/javascript" src="Scripts/table.js"></script>
+</head>
+<body>
+
+<!-- FORM WAY   / --> 
+	<h1>Insert</h1>
+	<section>
+	<form id="myForm" method="post" action="Database/insert.php">
+		Term: <input type="text" name="fTerm" id="fTerm" /><br> <br>
+		Defintion: <input type="text" name="fDef" id="fDef" /><br> <br>
+		<input name="submit" type="submit"
+			Value="submit"/>
+	</form>
+	</section> 
+<h1>WANT TO EVENTUALLY MAKE INSERTS HAPPEN THROUGH THE TABLE</h1>
+
+<div id="wrapper">
+<table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+<tr>
+<th>Term</th>
+<th>Defintion</th>
+
+<tr>
+<td><input type="text" id="new_term"></td>
+<td><input type="text" id="new_def"></td>
+<td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+</tr>
+
+</table>
+</div>
+
+
+</body>
+</html>

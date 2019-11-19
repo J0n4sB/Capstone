@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+
+
+#update {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#update td, #update th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#update tr{background-color: #f2f2f2;}
+
+#update tr:hover {background-color: #ddd;}
+
+#update th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+body{
+background: rgb(0,19,36);
+background: linear-gradient(90deg, rgba(0,19,36,0.9766281512605042) 0%, rgba(9,38,121,0.5396533613445378) 0%, rgba(0,212,255,0.6741071428571428) 52%);
+}
+
+section {
+        background: black;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+h1,
+h3 {
+  text-align: center;
+} 
+
+.container{
+  margin: 10px auto;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  margin-top:10%;
+}
+
+.update{
+display: inline-block; 
+margin-left: 0;
+float: left;
+width: 45%;
+height: 45%;
+background: rgba(25, 46, 107, 0.63); 
+border: 3px solid black;
+
+
+}
+
+.update:hover {
+  animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+
+
+.insert{
+width: 45%;
+height: 45%;
+margin-right: 0;
+float: right;
+border: 3px solid black;
+background: rgba(25, 46, 107, 0.63); 
+}
+
+.insert:hover {
+  animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
