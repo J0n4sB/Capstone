@@ -5,7 +5,6 @@ function edit_row(no)
 	
  var term=document.getElementById("term_row"+no);
  var def=document.getElementById("def_row"+no);
-	
  var term_data=term.innerHTML;
  var def_data=def.innerHTML;
 	
