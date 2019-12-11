@@ -9,7 +9,6 @@ function OpenConnection()
     
     return $conn;
 }
-
 //WORKING SQL INSERT
 //$sql = "INSERT INTO `jbuserDB`.`flashCards` (`id`,`flashTerm`, `flashDef`)
 //  VALUES ('3','Term', 'Definition');";
