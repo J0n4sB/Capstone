@@ -13,7 +13,7 @@ CloseCon($conn);
 </head>
 <body>
 
-	<h1>Insert</h1>
+	<h1>Insert</h1> 
 <div class="container">
 
     <div class="update" onclick="location.href='input.html';">
@@ -25,9 +25,6 @@ CloseCon($conn);
     <h1>View</h1>
     </div>
 </div>
-
-
-
 
 </body>
 </html>
